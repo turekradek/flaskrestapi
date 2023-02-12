@@ -1,0 +1,172 @@
+body
+{	
+
+	background-color: #404040;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: black;
+	
+}
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;/*margines na dole  */
+}
+#logo
+{
+	color: white;
+	margin-top: 20px;
+	margin: 20px;
+	font-size: 22px;/* rozmiar czcionki*/
+	letter-spacing: 7px;
+	font-weight: 900;
+	/*
+		font-weight - grubość czcionki
+		font-style = styl ( efekt) czcionki np pochylenie
+	*/
+}
+#menu
+{
+	background-color: #303030;
+	margin-top:20px;
+	color:white;
+	padding:10px;
+}
+#czas_i_data
+{
+	
+	float:right;
+	width:auto;
+	
+}
+#czas
+{
+	color :#58FAF4;
+	font-size:25px;
+	padding:10px;
+	text-align: right;
+	min-width: auto;
+	height: 25px;
+	float:right;
+	margin-left:100px;
+	float:left;
+	
+	
+	
+}
+#data
+{
+	color :#14b6b0;
+	font-size:25px;
+	padding:10px;
+	text-align: right;
+	min-width: auto;
+	height: 25px;
+	float:right;
+	margin-right:10px;
+	
+
+}
+#topbar
+{
+	background-color: #128870;
+	color:white;
+	padding:10px;
+	margin-top:20px;
+	margin-bottom: 25px;
+	height: auto;
+}
+#topbarleft
+{
+	float: left;
+	width:138px;
+	padding:  20px;
+	text-align: center;
+	border-right: 2px dotted #cccccc;/*linia 
+	oddzielająca topbary odejmij od szerokości width*/
+}
+#topbarright
+{
+	float:left;
+	width: 760px;/*uwzglednij paddingi*/
+	padding:   20px;
+	font-size:16px;
+	text-align: justify;/*justowanie tekstu czyli 
+	przyklejenie i do lewej i do prawej strony*/
+}
+#sidebar
+{
+	float: left;
+	width: 148px;
+	min-height: 720px;
+	padding: 20px;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px dotted #666666
+}
+#content
+{
+	float: left;
+	padding: 40px;
+	width: 730px;
+	background-color: #dedede;
+	min-height: 580px;
+	text-align: justify;
+}
+#footer
+{
+	clear: both;
+	color:white;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+}
+.option
+{
+	float:left;
+	min-width: 50px;
+	height: 25px;
+	font-size:18px;
+	padding:10px;
+	border-right:2px dotted #444444;/*linia miedzy menu
+	grubosc kropkowana kolor*/
+	opacity:0.8;/* przezroczystosc 80%*/
+}
+.option:hover/*po najechaniu na link*/
+{
+	background-color:#000000;
+	cursor:pointer;/*kursor łapka*/
+}
+.optionL
+{
+	font-size: 18px;
+	height: 25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444
+}
+.optionL:hover
+{
+	background-color:#f36742;
+	color: white;
+	cursor:pointer;/*kursor łapka*/
+}
+.bigtitle
+{
+	/*span podobnie działa jak div ale nie zmienia
+	ułożenia elementu na stronie  tak jak div*/
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+.dottedline
+{
+	height:5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #444444;
+}

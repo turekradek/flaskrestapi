@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8"/>
+		<title>html odcinek nr 3!</title>
+		<meta name="description" content="Przed tobą moja pierwsza strona internetowa"/>
+		<meta name="keywords" content="Różne rzeczy :)"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		
+		<link rel="stylesheet" href="style.css" type="text/css" >
+		<style type="text/css">	</style>
+		<!--- poniższy wpis jest wygenerowany z google fonts tam wybieramy czcionkę + latin extended trzeba skopiować link i wstawiamy jakby to był plik css
+			--->
+		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<script type="text/javascript">
+		
+			function zegar()	
+			{
+	
+	
+				var dzisiaj = new Date();
+	
+				var dzien = dzisiaj.getDate();
+				var miesiac = dzisiaj.getMonth() + 1;
+				var rok = dzisiaj.getFullYear();
+	
+				var godzina = dzisiaj.getHours();
+				if (godzina<10) godzina = "0" + godzina
+				var minuta  = dzisiaj.getMinutes();
+				if (minuta < 10) minuta = "0" + minuta
+				var sekunda = dzisiaj.getSeconds();
+				if (sekunda < 10) sekunda = "0" + sekunda
+				document.getElementById("data").innerHTML = dzien + "." + miesiac + "." + rok 
+				document.getElementById("czas").innerHTML = godzina + ":"+minuta+":"+sekunda
+				setTimeout("zegar()",1000)
+			}
+			
+			</script>
+	</head>
+	<body onload="zegar();">
+		<div id="container"> 
+		<div id="logo">	Miejsce na logo	</div>
+		<div id="menu">	
+			<div class="option"> strona główna </div> 
+			<div class="option"> opcja1  </div>
+			<div class="option"> opcja2  </div>
+			<div class="option"> opcja3  </div>
+			<div class="option"> opcja4  </div>
+			<div id="czas_i_data">
+				<div id="czas"></div>
+				<div id="data"></div>
+			</div>
+			<div style="clear: both;">    </div>
+		</div>
+		<div id="topbar">
+			<div id="topbarleft"> <img src="panda2.png"/> </div>
+			<div id="topbarright"> <span class="bigtitle">
+				o stonie kilka słów o witrynie.</span> 
+				<div style="height:15px;"></div> <br/>
+			Wpisz  teksy jakie chcesz o swojej stronie	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam dui, posuere nec aliquam a, laoreet id mi. Mauris libero mauris, accumsan eget elit quis, venenatis elementum neque. Proin ultrices leo quam, nec viverra purus porta nec. Suspendisse potenti. Quisque interdum quis nibh fermentum molestie.</div>
+			<div style="clear: both;"></div>
+		</div>
+
+		<div id="sidebar">
+			<div class="optionL"> strona główna </div> 
+			<div class="optionL"> opcja1  		</div>
+			<div class="optionL"> opcja2  		</div>
+			<div class="optionL"> opcja3  		</div>
+			<div class="optionL"> opcja4 		 </div>
+		</div>
+		<div id="content">	
+			<span class="bigtitle">	Nagłówek tekstu.</span>
+			
+			<div class="dottedline"></div> 
+
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam dui, posuere nec aliquam a, laoreet id mi. Mauris libero mauris, accumsan eget elit quis, venenatis elementum neque. Proin ultrices leo quam, nec viverra purus porta nec. Suspendisse potenti. Quisque interdum quis nibh fermentum molestie. Sed ultrices turpis ut ante mattis laoreet. Etiam venenatis ullamcorper erat vel fringilla. Duis ac euismod risus. Suspendisse eu pulvinar turpis. Cras quis ligula ac ipsum congue tempus eu eget eros. Curabitur sit amet ligula maximus, tempor nunc at, ullamcorper nibh. Integer pulvinar tortor quis lacus interdum, in posuere massa dictum. Curabitur vel volutpat tortor. Vestibulum ullamcorper lorem porttitor auctor egestas.<br/><br/>
+
+Curabitur posuere posuere est ut imperdiet. Aenean congue vel nulla in suscipit. Sed sapien nisi, blandit ac volutpat sed, venenatis sed velit. Quisque nec porttitor nulla, ut sollicitudin massa. Ut tempus dignissim nisi nec dignissim. Cras ultrices venenatis ligula. Nunc et blandit orci, sit amet tincidunt libero. Etiam at rutrum velit, eu posuere velit. Maecenas efficitur a elit at pretium.<br/><br/>
+
+Donec laoreet nisi magna, eu volutpat ipsum tincidunt eu. Sed viverra fringilla erat, eget fermentum nunc posuere non. In nec feugiat est. Nunc ac pellentesque quam. Integer sollicitudin eros sed mi sollicitudin bibendum. Donec purus augue, rhoncus sed massa eget, venenatis tristique velit. Morbi efficitur pulvinar urna id blandit. Nam iaculis rhoncus nisi, a accumsan ex blandit sed. Suspendisse euismod orci lacus, eget consectetur purus dictum et. Nullam vitae ultricies mi. Donec suscipit tortor eget turpis dictum, eget feugiat mauris euismod. Suspendisse sagittis condimentum ante ut accumsan. Cras consequat tellus elit, luctus aliquet elit mollis vitae. <br/><br/>
+			</div>
+		<div id="footer">	informacje dla stopki strona od data &copy; Wszelkie prawa zastrzeżone</div>
+	</div>
+		
+	</body>
+</html>
