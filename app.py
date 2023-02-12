@@ -10,5 +10,9 @@ app = Flask(__name__)
 def hello_world():
     return render_template('index.html')
 
-
+@app.route("/restapi")
+def restapi():
+    return f"""
+            Tu będzie strona do pobierania jsonow
+"""
 
